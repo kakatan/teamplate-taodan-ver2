@@ -1,0 +1,38 @@
+.footer {
+  position: fixed;
+  bottom: 0rem;
+  left: 0;
+  width: 100%;
+  background-color: #e3e9e8;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 15px;
+
+ 
+}
+
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.logoContainer {
+  margin-right: 3%;
+ 
+}
+
+.info {
+  font-family: Arial, sans-serif;
+  font-size: 0.8vw;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: rgb(173, 174, 174);
+}
+
+.info p {
+  margin: 0;
+}
