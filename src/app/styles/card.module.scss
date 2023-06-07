@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   width: 300px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   padding: 32px;
@@ -12,18 +12,23 @@
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
   margin-left: auto;
   margin-right: auto;
-  
+  overflow: auto;
+  .btn{
+ margin-left: 150px;
+
+  }
+ 
 }
-
-.content {
-  
+.li{
+  list-style-type: none;
+}
+.content {  
   font-size: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  color: #0e0e0e;
+  //color: #ffffff;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -43,10 +48,12 @@
   font-weight: 100;
   border: none;
   cursor: pointer;
-  background: linear-gradient(-45deg, #f89b29 0%, #007789 100% );
+  background: linear-gradient(-45deg, #007789 0%, #007789 100% );
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   font-size: 10px;
+ 
+
 }
 
 .card::before {
@@ -56,7 +63,7 @@
   bottom: 0;
   width: 100%;
   height: 5px;
-  background: linear-gradient(-45deg, #f89b29 0%, #007789 100% );
+  background: linear-gradient(-45deg, #032B43 0%, #032B43 100% );
   z-index: -1;
   transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }

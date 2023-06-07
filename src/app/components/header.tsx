@@ -16,7 +16,7 @@ const Header = () => {
         <input type="text" placeholder="Search" className={styles.searchInput} />
       </div>
       <div className={styles.rightContent}>
-        <button className={styles.button}>Đặt lịch khám</button>
+        <button className={styles.button} style={{backgroundColor:'#FFB100'}}>Đặt lịch khám</button>
         <button className={styles.button}>Tư vấn</button>
       </div>
     </header>
